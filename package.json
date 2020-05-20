@@ -3,7 +3,7 @@
   "displayName": "Momentum Snippets",
   "description": "Creates snippets for momentum state management library.",
   "version": "0.1.0",
-  "publisher": "Sourabh Mhaisekar",
+  "publisher": "SourabhMhaisekar",
   "categories": [
     "Snippets"
   ],
@@ -14,5 +14,13 @@
         "path": "./snippets.json"
       }
     ]
+  },
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "readme": "https://github.com/SaurabhSM/momentum-snippets/blob/master/README.md",
+  "license": "https://github.com/SaurabhSM/momentum-snippets/blob/master/LICENSE",
+  "repository": {
+    "url": "https://github.com/SaurabhSM/momentum-snippets"
   }
 }
