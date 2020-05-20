@@ -1,5 +1,7 @@
 # Momentum Snippets
 
+![GitHub](https://img.shields.io/github/license/SaurabhSM/momentum-snippets)
+
 This extension allows you to create quick snippets for Flutter's Momentum State management Library.
 
 Please visit https://github.com/xamantra/momentum to learn more about Momentum State Management Library.
