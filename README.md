@@ -1,6 +1,6 @@
 # Momentum Snippets
 
-![GitHub](https://img.shields.io/github/license/SaurabhSM/momentum-snippets)
+![GitHub](https://img.shields.io/github/license/SaurabhSM/momentum-snippets) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/SaurabhSM/momentum-snippets)
 
 This extension allows you to create quick snippets for Flutter's Momentum State management Library.
 
@@ -17,6 +17,5 @@ Please visit https://github.com/xamantra/momentum to learn more about Momentum S
 | `msnap`, `msnapshot`, `snapshot` | Creates snippet for calling snapshot method `snapshot<T>();` |
 | `mupdate`                        | Creates snippet for calling `model.update()` method          |
 | `mcctrl`                         | Creates snippet for calling `Momentum.of<T>(context)`        |
-
 
 For any suggetions or bugs please visit [Momentum Snippet](https://github.com/SaurabhSM/momentum-snippets)
