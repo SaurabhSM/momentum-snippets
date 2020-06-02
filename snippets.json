@@ -3,7 +3,7 @@
     "prefix": ["mmod", "mmodel"],
     "body": [
       "import 'package:momentum/momentum.dart';\n",
-      "class ${1:ModelName}Model extends MomentumModel<${2:ControllerName}Controller> {\n\n\t${1:ModelName}Model(${2:ControllerName}Controller controller, { }) : super(controller);\n\n\t@override \n\tvoid update({ }) {\n\t\t${1:ModelName}Model(\n\t\t\tcontroller, { }\n\t\t).updateMomentum();\n\t}\n}"
+      "class ${1:ModelName}Model extends MomentumModel<${2:ControllerName}Controller> {\n\n\t${1:ModelName}Model(${2:ControllerName}Controller controller, ) : super(controller);\n\n\t@override \n\tvoid update() {\n\t\t${1:ModelName}Model(\n\t\t\tcontroller,\n\t\t).updateMomentum();\n\t}\n}"
     ],
     "description": "Creates snippet for Momentum Controller"
   },
@@ -27,5 +27,21 @@
       "class ${1:Name} extends StatefulWidget {\n\n} \n\nclass _${1:Name}State extends MomentumState<${1:Name}> { \n\t${1:Name}Controller ${2:controllerName}; \n\t@override \n\tvoid initMomentumState() { \n\t\t ${2:controllerName} = Momentum.of<${1:Name}Controller>(context); \n\t\t ${2:controllerName}.addListner( \n\t\t\tstate: this, \n\t\t\tinvoke: (model, isTimeTravel) {\n\n\t\t\t} \n\t\t); \n\t } \n}"
     ],
     "description": "Creates Momentum State class"
+  },
+  "Snapshot": {
+    "prefix": ["msnap", "msnapshot", "snap"],
+    "body": ["final ${1:variableName} = snapshot<${2:ModelName}Model>();"],
+    "description": "Creates Snapshot method"
+  },
+  "Model Update": {
+    "prefix": ["mupdate"],
+    "body": ["model.update(${1});"]
+  },
+  "Call momentum controller": {
+    "prefix": ["mcctrl"],
+    "body": [
+      "${1:variableName} = Momentum.of<${2:ControllerName}Controller>(context);"
+    ],
+    "description": "Calls Momentum controller"
   }
 }

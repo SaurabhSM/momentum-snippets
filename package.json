@@ -22,5 +22,12 @@
   "license": "https://github.com/SaurabhSM/momentum-snippets/blob/master/LICENSE",
   "repository": {
     "url": "https://github.com/SaurabhSM/momentum-snippets"
-  }
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/github/license/SaurabhSM/momentum-snippets",
+      "href": "https://img.shields.io/github/license/SaurabhSM/momentum-snippets",
+      "description": "MIT License badge"
+    }
+  ]
 }
